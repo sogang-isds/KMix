@@ -47,7 +47,7 @@ fi
 if test -d "metadata/Kspon3mix"; then
    echo "KMix folder already exits. Skipping generation."
 else
-   for n_src in 3; do
+   for n_src in 2 3; do
       $python_path scripts/create_kmix_metadata.py --n_src $n_src
    done
 fi
