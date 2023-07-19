@@ -17,11 +17,10 @@
 
 
 
-## train/dev/test
+## train/dev/eval
 
 - Ksponspeech의 경우, train/dev/eval set이 분리되어 있지 않아 코퍼스를 나누는 과정을 거쳤습니다.
-- 위 과정에서
-- flac 확장자를 wav로 변환하여 활용하였습니다.
+- 위 과정에서 flac 확장자를 wav로 변환하여 활용하였습니다.
 - single channel seperation task 수행을 위해서 stero -> mono 변환을 진행했습니다.
 
 ```bash
