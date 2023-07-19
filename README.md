@@ -50,6 +50,6 @@ pip install -r requirements.txt
 ```
 
 - KsponSpeech default directory는 /home/private_data/* 입니다.
-- 경로 변경이 필요할 경우,**generate_KMix.sh** 내 **ksponspeech_dir** argument를 수정하시면 됩니다.
+- 경로 변경이 필요할 경우, **generate_KMix.sh** 내 **ksponspeech_dir** argument를 수정하시면 됩니다.
 - 실행이 완료되면 KMix/storage_dir 내 wham_noise 및 Kspon(2,3)mix data가 생성됩니다.
 
