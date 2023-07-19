@@ -30,7 +30,7 @@
 KsponSpeech/
 	train/
 	  KsponSpeech_01 (0001~0124)/
-      KsponSpeech_02 (0125~0186, 0202~0248)/
+	  KsponSpeech_02 (0125~0186, 0202~0248)/
 	  KsponSpeech_03 (0249~0372)/
 	  KsponSpeech_04 (0373~0434, 0450~0496)/
 	  KsponSpeech_05 (0497~0623)/
