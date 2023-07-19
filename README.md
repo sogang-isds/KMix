@@ -24,19 +24,20 @@
 - flac 확장자를 wav로 변환하여 활용하였습니다.
 - single channel seperation task 수행을 위해서 stero -> mono 변환을 진행했습니다.
 
-```
+```bash
 #폴더 트리 구조
+
 KsponSpeech/
-	     train/
-	  		KsponSpeech_01 (0001~0124)/
-	 		KsponSpeech_02 (0125~0186, 0202~0248)/
-	  		KsponSpeech_03 (0249~0372)/
-	  		KsponSpeech_04 (0373~0434, 0450~0496)/
-	  		KsponSpeech_05 (0497~0623)/
-		 dev/
-	  		KsponSpeech_02 (0187~0201)
- 		 test/
-      		KsponSpeech_04 (0435~0449)
+	train/
+		KsponSpeech_01 (0001~0124)/
+	 	KsponSpeech_02 (0125~0186, 0202~0248)/
+	  	KsponSpeech_03 (0249~0372)/
+	  	KsponSpeech_04 (0373~0434, 0450~0496)/
+	  	KsponSpeech_05 (0497~0623)/
+	dev/
+		KsponSpeech_02 (0187~0201)
+	test/
+		KsponSpeech_04 (0435~0449)
 ```
 
 
